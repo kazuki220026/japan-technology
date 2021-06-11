@@ -1,6 +1,6 @@
-const LINE_ChannelAccessToken = "REPLACE_THIS_KEY_1";
-const DSP_APIKey_ClientID     = "REPLACE_THIS_KEY_2";
-const DSP_APIKey_ClientSecret = "REPLACE_THIS_KEY_3";
+const LINE_ChannelAccessToken = "r3n0YjV5EcM0AznmBYVQNEA2OIoR809Y8lxylnUos0dEQs5pnJYf/BzEGJnd23xjwenrZ1Rr/4THrY7Kpktw4hKi/CFFalqkMeBWgg1giCzgWbkzFRlqIiajbEXqzFKG/cOjlpkJ9GXi7fvDSNfM8gdB04t89/1O/w1cDnyilFU=";
+const DSP_APIKey_ClientID     = "ad807090-8dc0-4601-953c-e598a5f01932";
+const DSP_APIKey_ClientSecret = "kF8rB3sM3cS2gX8oB4cT6nR1tK3gA8tD8tB4pK8gT4tP6iF2aW";
 
 async function main(params) {
   if(params.events && params.events[0].type === "message" ){
